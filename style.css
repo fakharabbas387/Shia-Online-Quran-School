@@ -1,0 +1,827 @@
+        
+.body{
+        background-color: #e0cccc;
+}
+*     {
+	margin =0;
+	padding = 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  
+@media (max-width : 700px ){
+.logo-container {
+        text-align:center;
+        margin:  0;
+        padding:  0px;
+        text-align:center;
+        
+}
+
+}
+}
+.school{
+         text-align: center;
+         color:rgb(237, 243, 234) ;
+         background-color: hsl(103, 94%, 42%);
+         font-size:20px;
+         padding: 15px 5px;
+}
+.nav-links  {
+          background-color: #1026ee;
+          padding: 15px 2px;
+          width: 100%;
+  }
+  .Tajweed{
+            text-align: center;
+            color: #1026ee;
+            padding: 15px 0px 5px 0px;
+            text-decoration: underline;
+            background-color: #490839;
+  }
+.menu    {
+           list-style:none;
+           display: flex; 
+           padding: 25px؛
+	  background-color : white; ;
+           text-align: center;	
+           	
+ }
+ .nav-links li a {
+      
+         text-decoration: none;
+         color:#f0eff5;
+         font-size: 16px;
+         font-family:default, sans-serif;
+         padding:16px 10px;
+         transition: 0.3s;
+
+         }
+
+  .nav-links .fas  {
+
+        display:block;
+        color:rgb(243, 242, 248);
+        margin:10px;
+        font.size:22px;
+        cursor: pointer;
+
+
+  }  
+  .shia{
+          margin:10px ;
+          color: rgb(105, 216, 15);
+  }     
+ }
+ .nav-links li a : hover{
+         background-clor: #f39c12;
+         border-radius: 4px;
+ }
+  .img {
+         margin:0  0;
+         border: solid: black;
+         underline: black
+        
+  }
+  
+      
+  }
+ .b {
+	      color: red;
+ }
+ .footer {
+          border : solid;
+          color: rgb(235, 231, 231);
+          width:100%;
+          height: 400px;
+          background-color: rgb(106, 77, 236);
+          text-decoration-color: white;
+          padding: 20px;
+        
+
+ }
+ 
+ 
+
+.footer {
+          background: linear-gradient(to right, rgba(10, 182, 19, 0.979), #5f8fdc);
+          padding: 40px 20px;
+          width: 100%;
+}
+
+.footer-center {
+          display: flex;
+          flex-direction: column;     /* h3 & list in one column */
+          align-items: center ;        /* horizontal center */
+          text-align: center;         /* text center */
+          color: #fff;
+          
+}
+
+.footer-center h3 {
+          margin-bottom: 15px;
+          font-size: 22px;
+ }
+
+.footer-center ul {
+          list-style: none;           /* remove bullets */
+          padding: 0;
+          margin: 0;
+}
+
+.footer-center ul li {
+          margin: 6px 0;
+          font-size: 15px;
+}
+.banner{
+          width: 100%;
+          background: url('../images/banner.jpg') no-repeat;
+            
+
+          background-size:cover ;
+          position: left;
+          text-align: center;
+
+
+}
+
+ .text-block{
+        
+          width:60%;
+          color:white;
+          position:absolute;
+          top:85%;
+          left: 20%;
+          text-align: center;
+          transform: ; translate(-50%-50%);   
+          padding: 0px 10px;  
+  
+}
+.btn-primary {
+         display: inline-block;
+         text-decoration: none;
+         color:rgb(12, 9, 9);
+         border: 1px solid rgb(3, 0, 12);
+         padding: 12px 36px;
+         font-size: 14px;
+         background-color: transparent; 
+         position: absolute;
+         margin: 15px 10px;
+         left: 40%;
+        
+
+        
+        
+}
+
+.btn-primary:hover {
+        
+         border: 5px solid black ;
+         background:rgb(238, 168, 229) ;
+         color: black;
+         transition: 0.5s;
+        
+
+
+}
+
+
+      .text-block h1{
+         font-size: 36px;
+
+      }
+      .menu ul li {
+
+        display: block;
+        
+      }
+
+}
+.navbar {
+       
+       position: absolute;
+       background: blue ;
+       height:  100vh ;
+       width: 100%;
+       text-align:left;
+       z-index: 2;
+      
+
+}
+
+}
+    
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+/* Style the bar icon */
+.fa-bars {
+    font-size: 20px;     /* Icon size */
+    color:white;         /* Icon color */
+    cursor: pointer;     /* Pointer on hover */
+    transition: 0.3s;
+    text-align: left;
+    left: 5;
+    
+}
+
+/* Hover effect */
+.fa-bars:hover {
+    color: #007bff;
+}
+.row{
+        display:flex;
+          background:#d9dde2
+          border-box: solid black;
+          padding: 30px  0px  15px 0px
+}
+.sub-heading{
+    text-align: center;
+    color: #490839;
+    padding: 10px 0px 10px 0px;
+}
+}
+.col{
+        width: 41.66%;
+        padding: 10px;
+        background:#db8b12;
+        border: 5px solid black;
+
+}
+.heading{
+    
+         text-align: center;
+        color:rgb(11, 85, 5);
+        background-color: #e9edf3;
+        padding: 60px 0px 30px 0px;
+        text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-header {
+    width: 100%;
+    background: lch(26.06% 52.18 42.69);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+.site-name h1 {
+    font-size: 24px;
+    color: #f3e9e9;
+}
+
+.whatsapp a {
+    text-decoration: none;
+    color: #25D366;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.whatsapp a:hover {
+    color: #128C7E;
+}
+.col{
+    position : absolute;
+    
+}
+.picture{
+    width: 200px;
+    height:100px;
+    position: flex;
+    display: inline;
+}
+/* Page background */
+body {
+  margin: 0;
+  padding: 40px;
+  background: #e6e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main card */
+.card {
+  max-width: 700px;
+  margin: auto;
+  background: #2b6f7f;
+  color: #ffffff;
+  padding: 50px 40px;
+  border-radius: 30px;
+  box-shadow: 0 0 0 8px #4aa0b5 inset;
+}
+
+/* Headings */
+.title {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  margin: 10px 0;
+  border-bottom: 3px dotted #cfe8ef;
+  display: block;
+  padding-bottom: 6px;
+}
+
+/* Content area with left line */
+.content-box {
+  margin-top: 80px;
+  padding-left: 25px;
+  border-left: 6px solid #e0f2f7;
+}
+
+/* Paragraph text */
+.content-box p {
+  font-size: 24px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shia Quran School Online</title>
+
+<style>
+
+/* ===== BODY ===== */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+
+/* ===== HERO ===== */
+.hero{
+    background:#2f6f7a;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    max-width:850px;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* ===== SECTION ===== */
+.section{
+    padding:50px 10%;
+    background:white;
+}
+
+.section h2{
+    text-align:center;
+    color:#2f6f7a;
+    margin-bottom:25px;
+}
+
+/* ===== TEACHERS ===== */
+.teachers{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.teacher-card{
+    width:260px;
+    background:#fafafa;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    text-align:center;
+    padding:15px;
+}
+
+.teacher-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* ===== FEATURES ===== */
+.features ul{
+    list-style:none;
+    padding:0;
+    max-width:800px;
+    margin:auto;
+}
+
+.features li{
+    background:#e7f3f5;
+    margin:10px 0;
+    padding:12px;
+    border-left:5px solid #2f6f7a;
+}
+
+/* ===== FORM ===== */
+.form-section{
+    background:#2f6f7a;
+    padding:60px 10%;
+}
+
+.form-box{
+    max-width:500px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+}
+
+.form-box h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#2f6f7a;
+}
+
+.form-box input,
+.form-box select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+.form-box button{
+    width:100%;
+    padding:12px;
+    background:#2f6f7a;
+    color:white;
+    border:none;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+.form-box button:hover{
+    background:#24565f;
+}
+.quranic{
+         font-size:20px;
+         margin: 0px 2px 0px 2px;
+}
+.hire{
+       text-align: center;
+
+}
+.online{
+    text-align: center;
+    font-size: 40px;
+    color: #cfe8ef;
+    background-color: #490839;
+}
+</style>
+</head>
+<body>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+/* Section */
+.features {
+  padding: 60px 20px;
+}
+
+/* Container Grid */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+/* Box */
+.box {
+  padding: 20px;
+}
+
+/* Icon Circle */
+.icon {
+  width: 90px;
+  height: 90px;
+  background: #8b076a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon i {
+  color: rgb(250, 237, 248);
+  font-size: 36px;
+}
+
+/* Headings */
+.box h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+/* Paragraph */
+.box p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Red text highlight */
+.box span {
+  color: rgb(134, 15, 84);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+<!-- ===== HERO / HEADING ===== -->
+<div class="hero">
+    <h1>Shia Online Quran School</h1>
+
+    <p>
+        Please give me complete website Shia Quran School Online.
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f3f3f3;
+}
+
+/* Section Border Box */
+.form-section {
+  padding: 40px;
+}
+
+.form-box {
+  border: 4px solid #8a8a8a;
+  padding: 40px 30px;
+  background: #f7f7f7;
+}
+
+/* Heading */
+.form-box h1 {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 36px;
+  color: #5a6b7b;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* Grid Layout */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #cfcfcf;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: white;
+}
+
+/* Textarea height */
+textarea {
+  height: 130px;
+  resize: vertical;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #666;
+}
+
+/* Captcha text */
+.captcha {
+  margin-top: 10px;
+}
+
+/* Checkbox */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.checkbox b {
+  color: red;
+  font-weight: normal;
+}
+
+/* Submit Button */
+button {
+  background: #b40000;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background: #8f0000;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    float: left;
+  }
+}
+
+/*Grid System*/
+.col-1 {width:8.33%; }
+.col-2{width:16.66%; }
+.col-3{width: 25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66% ;}
+.col-6{width:50%;}
+.col-7{width:58.33% ;}
+.col-8{width:66.66% ;}
+.col-9{width: 75%;}
+.col-10{width:83.33% ;}
+.col-11{width:91.66% ;}
+.col-12{width:100% ;}
+
+.row::after {
+    content:"";
+    clear:"both";
+  display:table;
+}
+
+
+[class*= "col-"] {
+    float: left;
+    padding: 15px;
+}
+/* Footer Main */
+.footer {
+  background: hsl(115, 85%, 21%);
+  color: #faf5f5;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container */
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 0 20px;
+}
+
+/* Columns */
+.footer-col h3 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Links */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #f3ecec;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #25D366; /* WhatsApp green hover */
+}
+
+/* Social Icons */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: lab(37.37% 64.78 -86.9 / 0.781);
+  color: white;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  background: #25D366;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  text-align: center;
+  background: hwb(115 7% 8% / 0.877);
+  padding: 15px 10px;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #eee7e7;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .social-icons a {
+    margin-bottom: 10px;
+  }
+}
+
+      
+
+
+
+
+/*Grid System*/
+
+
+}
